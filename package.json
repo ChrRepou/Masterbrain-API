@@ -1,0 +1,21 @@
+{
+  "name": "masterbrain-api",
+  "version": "1.0.0",
+  "description": "REST API for the masterbrain app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "author": "Christina Repou",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "clarifai": "^2.9.1",
+    "clarifai-nodejs-grpc": "^10.8.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "knex": "^3.1.0",
+    "pg": "^8.12.0"
+  }
+}
